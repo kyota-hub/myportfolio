@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>my portfolio</title>
+    <meta name="description" content="瀧山強太のポートフォリオサイトです。"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section id="mask">
+        <p id="title"></p>
+    </section>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__title">
+                <h1>my portfolio</h1>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav__inner">
+                    <ul>
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#skill">SKILL</a></li>
+                        <li><a href="#works">WORKS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="floating">
+        <a href="#">TOP</a>
+    </div>
+    
+    <main>
+      <div class="first-v">
+    </div>
+
+      <section class="profile js-animation" id="profile">
+          <div class="profile__inner">
+              <div class="title">
+                  <h2>PROFILE</h2>
+                  <p>自己紹介</p>
+              </div>
+              <div class="profile__info">
+                  <div class="profile__info__image">
+                      <img src="img/me.jpg" alt="">
+                  </div>
+                  <div class="profile__info__text">
+                      <ul class="profile__text__ul">
+                        <li>はじめまして。瀧山と申します。
+                        </li>
+                        <li>東京都在住。現在２５歳です。２０２１年の４月よりプログラミングの学習を始めました。</li>
+                        <li>最近はNode.jsに注力しており、練習がてらいろいろなプログラムを実装したり、アルゴリズムを考えたりしています。</li>
+                        <li>また、将来的にはフルスタックなエンジニアになりたいので、デザイン面も少しずつ勉強しています。</li>
+                      </ul>
+                      <div class="profile__info__snslink">
+                          <ul>
+                              <li>
+                                  <a href="https://twitter.com/ttit_Kyit">
+                                      <i class="fab fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                <div class="contact__form__link">
+                                  <a href="mailto:ttit.kyo@gmail.com">
+                                      <i class="far fa-envelope"></i>
+                                  </a>
+      
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="skill js-animation" id="skill">
+          <div class="skill__inner">
+              <div class="title">
+                  <h2>SKILL</h2>
+                  <p>技術</p>
+              </div>
+              <div class="skill__items">
+                  <div class="skill__item js-animation">
+                      <i class="fab fa-html5"></i>
+                      <h3 class="html">HTML5</h3>
+                      <p>
+                         可読性を重視しています。現在はクラス命名規則などを学んでいます。今後も改善を続け、より読みやすいコードになるよう意識していきます。
+                      </p>
+                  </div>
+                  <div class="skill__item js-animation">
+                      <i class="fab fa-css3-alt"></i>
+                      <h3 class="css">CSS3</h3>
+                      <p>
+                          CSSanimationについて深掘りして学習を進めています。また、誰が見てもわかりやすいコードになるように、CSS設計の概念も学習しています。
+                      </p>
+                  </div>
+                  <div class="skill__item js-animation">
+                      <i class="fab fa-js-square"></i>
+                      <h3 class="javascript">JavaScript</h3>
+                      <p>
+                          基礎を固める事を目的に学習しています。できる限り純粋なJavaScriptを使用してUIを実装するようにしています。最近はcanvasも学習中です。
+                      </p>
+                  </div>
+                  <div class="skill__item js-animation">
+                      <i class="fab fa-node-js"></i>
+                      <h3 class="nodejs">Node.js</h3>
+                      <p>
+                          express.jsを利用してのWEBアプリケーションを作成しながら学習を進めています。
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="works js-animation" id="works">
+          <div class="works__inner">
+              <div class="title">
+                  <h2>WORKS</h2>
+                  <p>今までに制作したもの</p>
+              </div>
+              <div class="works__comment">
+                  <p>
+                      独学中に作成したSPAやプログラムなど
+                  </p>
+              </div>
+              <div class="works__info">
+                  <div class="works__info__item js-animation">
+                      <figure class="works__info__image works__info__image__first">
+                          <a href="https://chabotton.com/">
+                              <img src="" alt="">
+                          </a>
+                      </figure>
+                      <table class="works__info__table">
+                          <tr>
+                              <th>成果物</th>
+                              <td>
+                                  <a href="https://github.com/kyota-hub">githubアカウント</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th>使用言語</th>
+                              <td>HTML/CSS/JavaScript/JQuery/canvas</td>
+                          </tr>
+                          <tr class="last__tr">
+                              <th>コメント</th>
+                              <td>
+                                  私のgithubアカウントです。静的なSPAやDOM操作で実装したWEBアプリケーション等をアップしています。動的なサイトについては下に別途追記していきます。
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+                  <div class="works__info__item js-animation">
+                      <figure class="works__info__image works__info__image__second">
+                          <a href="#">
+                              <img src="" alt="">
+                          </a>
+                      </figure>
+                      <table class="works__info__table">
+                        <tr>
+                            <th>成果物</th>
+                            <td>
+                                 <a href="https://kyota-hub.github.io/OnlineChatApp/">匿名オンラインチャット</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>使用言語</th>
+                            <td>HTML/CSS/JavaScript/FireBase</td>
+                        </tr>
+                        <tr class="last__tr">
+                            <th>コメント</th>
+                            <td>
+                                firebaseを使用したリアルタイムオンラインチャットアプリです。<br>匿名IDに関してはfirebaseのAPIを使用して実装しました。
+                            </td>
+                        </tr>                      </table>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <section class="contact js-animation" id="contact">
+          <div class="contact__inner">
+              <div class="title">
+                  <h2>CONTACT</h2>
+                  <p>お問い合わせ</p>
+              </div>
+              <div class="contact__info">
+                  <p>
+                      以下のSNS・メールからお願い致します。
+                  </p>
+                  <div class="contact__form">
+                      <div class="contact__form__link">
+                          <a href="https://twitter.com/ttit_Kyit">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                      </div>
+                      <div class="contact__form__link">
+                          <a href="mailto:ttit.kyo@gmail.com">
+                              <i class="far fa-envelope"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+        <small>Copyright ©my portfolio 2021</small>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
